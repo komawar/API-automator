@@ -1,0 +1,4 @@
+.05 DELETE /server/<server-id>
+.09 POST /images
+.14 PUT /server/details
+.22 GET /server/details
