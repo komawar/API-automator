@@ -1,3 +1,7 @@
+#Author: Nikhil Komawar 
+#Affiliation: Rackspace Inc. USA
+#email: nikhil.komawar@rackspace.com
+
 """
 This script generates metadate for a list of customers to create a profile of
 traffic hitting the servers.
