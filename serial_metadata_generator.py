@@ -1,7 +1,20 @@
 #Author: Nikhil Komawar 
 #Affiliation: Rackspace Inc. USA
 #email: nikhil.komawar@rackspace.com
-
+"""
+Pre-requisites for this script include:
+1. profile.txt file 
+    - first word of each line is fraction of expected requests of that API
+    - second word must be the verb
+    - third entire word must be the url for the verb
+2. customer.txt file
+3. time_file.txt file
+"""
+"""
+Output includes a metadata.dat file which simulates a series of API requests
+based on the timestamp in the time_file.txt file and the percentage of a
+specific API in profile.txt file
+"""
 """
 This script generates metadate for a list of customers to create a profile of
 traffic hitting the servers.
